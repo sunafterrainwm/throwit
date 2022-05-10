@@ -1,0 +1,23 @@
+{
+	"env": {
+		"commonjs": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"wikimedia",
+		"wikimedia/node",
+		"wikimedia/mocha",
+		"wikimedia/language/es2019",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": "latest"
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {}
+}

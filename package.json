@@ -1,0 +1,27 @@
+{
+	"name": "throwit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "throwit.js",
+	"typings": "throwit.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "sunafterrainwm <sunafterrainwm@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"canvas": "^2.9.1",
+		"commander": "^9.2.0",
+		"sharp": "^0.30.4"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.31",
+		"@types/sharp": "^0.30.2",
+		"@typescript-eslint/eslint-plugin": "^5.22.0",
+		"@typescript-eslint/parser": "^5.22.0",
+		"eslint": "^8.15.0",
+		"eslint-config-wikimedia": "^0.22.1",
+		"typescript": "^4.6.4"
+	}
+}
